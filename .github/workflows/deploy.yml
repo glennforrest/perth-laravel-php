@@ -60,6 +60,19 @@ jobs:
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
+      - name: Check artifact size and remove hard links and symlinks
+        run: |
+          # Find and remove any hard links or symlinks
+          find ./dist -type l -delete
+
+          # Check the size of the artifact
+          SIZE=$(du -sh ./dist | cut -f1)
+          echo "Artifact size: $SIZE"
+          if [[ $SIZE == *G ]]; then
+            echo "Artifact is too large to upload"
+            exit 1
+          fi     
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
