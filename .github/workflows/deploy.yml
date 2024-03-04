@@ -54,7 +54,7 @@ jobs:
       - name: Generate static site
         run: php artisan export
 
-     - name: Fix permissions
+      - name: Fix permissions
         run: |
           chmod -c -R +rX "_site/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
