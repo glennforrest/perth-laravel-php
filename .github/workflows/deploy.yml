@@ -54,6 +54,12 @@ jobs:
       - name: Generate static site
         run: php artisan export
 
+     - name: Fix permissions
+        run: |
+          chmod -c -R +rX "_site/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -66,6 +72,10 @@ jobs:
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     runs-on: ubuntu-20.04
     steps:
