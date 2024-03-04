@@ -6,12 +6,12 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-20.04
     steps:
+      - name: Checkout
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+
       - uses: oven-sh/setup-bun@v1
       - run: bun install
 
@@ -53,9 +53,20 @@ jobs:
       - name: Generate static site
         run: php artisan export
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
-          # cname: example.com # if wanna deploy to custom domain
+          path: ./dist
+
+  deploy:
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
