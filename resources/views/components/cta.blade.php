@@ -2,7 +2,11 @@
     <div class="relative isolate">
         <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
-                <img class="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm" src="../../images/cta.jpg" alt="Someone presenting in front of people">
+                <img
+                    class="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
+                    src="{{ Vite::asset('resources/images/cta.jpg') }}"
+                    alt="Someone presenting in front of people"
+                />
 
                 <div class="w-full flex-auto">
                     <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Connect with {{ config('meetup.members') }} like-minded developers</h2>
