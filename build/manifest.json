@@ -4,6 +4,14 @@
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/images/cta.jpg": {
+    "file": "assets/cta-Bc89eTiT.jpg",
+    "src": "resources/images/cta.jpg"
+  },
+  "resources/images/hero.jpg": {
+    "file": "assets/hero-DEd6aMgZ.jpg",
+    "src": "resources/images/hero.jpg"
+  },
   "resources/js/app.js": {
     "file": "assets/app-CifqVuM1.js",
     "src": "resources/js/app.js",
