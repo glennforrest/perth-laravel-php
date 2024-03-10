@@ -7,14 +7,14 @@
 
     <title>{{ config('app.name') }}</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    @googlefonts
 
     @vite('resources/css/app.css')
 </head>
 
-<body class="antialiased bg-gray-900">
+<body class="antialiased bg-black text-white font-sans font-medium">
+    <x-banner />
+
     <x-nav />
 
     {{ $slot }}

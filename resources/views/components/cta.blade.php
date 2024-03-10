@@ -1,28 +1,43 @@
-<div class="py-24 sm:py-32">
-    <div class="relative isolate">
-        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
-                <img
-                    class="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-                    src="{{ Vite::asset('resources/images/cta.jpg') }}"
-                    alt="Someone presenting in front of people"
-                />
+<div class="container my-16">
+    <div class="py-20 px-8 bg-dark-fill/50 rounded-3xl">
+        <div class="flex flex-col items-center justify-center mx-auto max-w-[996px]">
+            <div class="flex flex-col items-center justify-center text-center">
+                <h2 class="text-2xl/none font-bold text-primary">
+                    The People
+                </h2>
 
-                <div class="w-full flex-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Connect with {{ config('meetup.members') }} like-minded developers</h2>
+                <p class="text-3xl font-bold text-white sm:text-6xl tracking-[-3%]">
+                    Join Our Community
+                </p>
 
-                    <p class="mt-6 text-lg leading-8 text-gray-300">
-                        Join us as we keep on learning, getting inspired, and growing together with other enthusiasts who are all about mastering the craft of building solid and scalable web apps using Laravel.
-                    </p>
-
-                    <div class="mt-10 flex">
-                        <a href="{{ config('meetup.url') }}" class="text-sm font-semibold leading-6 text-indigo-400">Join our meetup group <span aria-hidden="true">&rarr;</span></a>
-                    </div>
-                </div>
+                <p class="text-body mt-6">
+                    Immerse yourself in the vibrant world of Perth Laravel PHP Meetup! Dive into our dynamic community where discussions on Laravel and web app development thrive across Facebook, LinkedIn, and Slack. Stay in the loop with regular updates, insightful posts, and lively conversations. Don't miss out—join us today and fuel your passion for cutting-edge web development!
+                </p>
             </div>
-        </div>
-        <div class="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
-            <div class="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)"></div>
+
+            <div class="mt-12 flex flex-col gap-4 md:flex-row items-center justify-center md:gap-6">
+                <x-button theme="secondary" href="{{ config('app.facebook_url') }}" target="_blank" class="flex items-center space-x-3">
+                    <span>Our Facebook</span>
+
+                    <svg class="fill-current h-4 w-4 flex-none" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 8.04902C16 3.60302 12.418 -0.000976562 7.99999 -0.000976562C3.57999 2.34375e-05 -0.00201416 3.60302 -0.00201416 8.05002C-0.00201416 12.067 2.92399 15.397 6.74799 16.001V10.376H4.71799V8.05002H6.74999V6.27502C6.74999 4.25802 7.94499 3.14402 9.77199 3.14402C10.648 3.14402 11.563 3.30102 11.563 3.30102V5.28102H10.554C9.56099 5.28102 9.25099 5.90202 9.25099 6.53902V8.04902H11.469L11.115 10.375H9.24999V16C13.074 15.396 16 12.066 16 8.04902Z" />
+                    </svg>
+                </x-button>
+
+                <x-button theme="secondary" href="{{ config('app.linkedin_url') }}" target="_blank" class="flex items-center space-x-3">
+                    <span>Our LinkedIn</span>
+
+                    <svg class="fill-current h-4 w-4 flex-none" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.5 1.146C0.5 0.513 1.026 0 1.675 0H15.325C15.974 0 16.5 0.513 16.5 1.146V14.854C16.5 15.487 15.974 16 15.325 16H1.675C1.026 16 0.5 15.487 0.5 14.854V1.146ZM5.443 13.394V6.169H3.042V13.394H5.443ZM4.243 5.182C5.08 5.182 5.601 4.628 5.601 3.934C5.586 3.225 5.081 2.686 4.259 2.686C3.437 2.686 2.9 3.226 2.9 3.934C2.9 4.628 3.421 5.182 4.227 5.182H4.243ZM9.151 13.394V9.359C9.151 9.143 9.167 8.927 9.231 8.773C9.404 8.342 9.799 7.895 10.463 7.895C11.332 7.895 11.679 8.557 11.679 9.529V13.394H14.08V9.25C14.08 7.03 12.896 5.998 11.316 5.998C10.042 5.998 9.471 6.698 9.151 7.191V7.216H9.135L9.151 7.191V6.169H6.751C6.781 6.847 6.751 13.394 6.751 13.394H9.151Z" />
+                    </svg>
+                </x-button>
+
+                <x-button href="{{ config('app.meetup_url') }}" class="flex items-center space-x-3" target="_blank">
+                    <span>Become a Member</span>
+
+                    <x-heroicon-s-users class="h-4 w-4 flex-none" />
+                </x-button>
+            </div>
         </div>
     </div>
 </div>

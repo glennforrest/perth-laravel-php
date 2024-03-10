@@ -185,7 +185,16 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
-    'github_url' => null,
-    'x_url' => null,
+    'meetup_url' => 'https://www.meetup.com/perth-laravel-php-meetup/',
+    'facebook_url' => 'https://facebook.com',
+    'linkedin_url' => 'https://linkedin.com',
+    'become_sponsor_url' => 'https://google.com',
 
+    'sponsors' => [
+        [
+            'name' => 'Hatchet',
+            'url' => 'https://hatchet.com.au',
+            'logo_path' => 'resources/images/hatchet-logo.svg',
+        ],
+    ]
 ];
