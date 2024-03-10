@@ -7,247 +7,444 @@
 
     <title>Perth Laravel PHP</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        
+    <style >/* devanagari */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pasefoqeefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pasefoleefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7paseforeefkkbix.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldixapcsobg7s-qt7p4gm-agw-roq7s.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldixapcsobg7s-qt7p4jm-agw-roq7s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldixapcsobg7s-qt7p4hm-agw-ro.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pb0epoqeefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pb0epoleefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pb0eporeefkkbix.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pbyf-oqeefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pbyf-oleefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pbyf-oreefkkbix.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pa8fvoqeefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pa8fvoleefkkbixyyg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(http://localhost/storage/fonts/09e39e8b89/srajdhaniv15ldi2apcsobg7s-qt7pa8fvoreefkkbix.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+    <link rel="preload" as="style" href="https://glennforrest.github.io/perth-laravel-php/build/assets/app-C5HZx_5B.css" /><link rel="stylesheet" href="https://glennforrest.github.io/perth-laravel-php/build/assets/app-C5HZx_5B.css" /></head>
 
-    <link rel="preload" as="style" href="https://glennforrest.github.io/perth-laravel-php/build/assets/app-C5vvsITg.css" /><link rel="stylesheet" href="https://glennforrest.github.io/perth-laravel-php/build/assets/app-C5vvsITg.css" /></head>
-
-<body class="antialiased bg-gray-900">
-    <header class="absolute inset-x-0 top-0 z-50">
-    <div class="relative isolate flex justify-center items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5">
-    <div class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-        <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
-    </div>
-
-    <div class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-        <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
-    </div>
-
-    <p class="text-sm leading-6 text-gray-900">
-        Perth Laravel PHP is having it's first meetup on the Xth of March 2024. <a href="#" class="whitespace-nowrap font-semibold">Reserve your spot&nbsp;<span aria-hidden="true">&rarr;</span></a>
+<body class="antialiased bg-black text-white font-sans font-medium">
+    <div class="flex justify-center items-center gap-x-6 overflow-hidden bg-primary py-3 px-6 sm:px-3.5">
+    <p class="text-base/5 font-semibold">
+        Perth Laravel PHP is having it's first meetup on the Xth of March 2024. <a href="#" class="whitespace-nowrap underline font-bold">Reserve your spot&nbsp;<span aria-hidden="true">→</span></a>
     </p>
 </div>
 
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <div class="flex lg:flex-1">
-            <a href="/" class="-m-1.5 p-1.5 text-white">
-                <span>Perth Laravel PHP</span>
+    <header class="z-50 sticky top-4 container">
+    <nav class="my-6 flex items-center justify-between py-[14px] px-[50px] max-w-4xl mx-auto bg-[rgba(42,42,42,0.5)] backdrop-blur rounded-full" aria-label="Global">
+        <div class="flex md:flex-1">
+            <a href="/" class="-m-1.5 p-1.5 text-white transition duration-150 hover:opacity-80">
+                <svg class="w-[80px] h-[45px] text-white" viewBox="0 0 83 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M41.5413 5.15509V27.9122L47.9872 31.6944M41.5413 5.15509L48.1062 1.17747L81.5 20.5177M41.5413 5.15509L41.5767 5.17543M81.5 20.5177V42.9753L74.8828 46.8225M81.5 20.5177L74.8828 24.2737M74.8828 46.8225L68.1117 42.9753V35.7373M74.8828 46.8225V24.2737M61.4175 39.3889V24.1026L68.1117 27.9122V35.7373M61.4175 39.3889L54.9127 35.7373M61.4175 39.3889L68.1117 35.7373M47.9872 31.6944L54.9127 35.7373M47.9872 31.6944L47.9873 31.6737M47.9872 31.6944L54.895 28.0428M54.9127 35.7373V42.9753L48.1416 46.8225M54.9127 35.7373L48.1416 39.3889M54.9127 35.7373L47.9873 31.6737M54.9127 35.7373L54.895 28.0428M74.8828 24.2737L41.5767 5.17543M28.1698 5.15509L34.8189 1.17747L41.5767 5.15509M28.1698 5.15509L34.8189 8.81734M28.1698 5.15509V35.7373M28.1698 5.15509L28.1698 12.7843M41.5767 5.15509L34.8189 8.81734M41.5767 5.15509V5.17543M48.1416 46.8225L28.1698 35.7373M48.1416 46.8225V39.3889M28.1698 35.7373L28.1698 12.7843M28.1698 35.7373L21.4534 39.3889M34.8189 8.81734V31.6944M34.8189 31.6944L48.1416 39.3889M34.8189 31.6944L41.5767 27.9122M41.5767 27.9122V5.17543M41.5767 27.9122L47.9873 31.6737M1.5 5.15509L8.08594 1.17747L28.1698 12.7843M1.5 5.15509V42.9753L8.08594 46.8225M1.5 5.15509L21.4534 16.527M28.1698 12.7843L21.4534 16.527M21.4534 39.3889L14.7371 35.5229M21.4534 39.3889V16.527M14.7371 35.5229L8.08594 31.6944V46.8225M14.7371 35.5229V42.9753L8.08594 46.8225M47.9873 31.6737L48.1062 16.527L54.8773 20.3483L54.895 28.0428M8.08594 24.2737V16.527L14.7371 20.5177V27.9122L8.08594 24.2737Z" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+</svg>
             </a>
         </div>
 
-        <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
-                <span class="sr-only">Open main menu</span>
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>
-            </button>
+        <div class="hidden md:flex md:gap-x-12">
+            <a href="#about" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
+                About
+            </a>
+
+            <a href="#laravel" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
+                Laravel
+            </a>
+
+            <a href="#sponsors" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
+                Sponsors
+            </a>
         </div>
 
-        <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#about" class="text-sm font-semibold leading-6 text-white">About</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Features</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Marketplace</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Company</a>
-        </div>
+        <div class="flex flex-1 justify-end">
+            <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-medium border-white hover:bg-white hover:text-black focus-visible:outline-white flex items-center space-x-3" href="https://www.meetup.com/perth-laravel-php-meetup/" href="https://www.meetup.com/perth-laravel-php-meetup/" class="flex items-center space-x-3"><span>Join</span>
 
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://www.meetup.com/perth-laravel-php-meetup/" class="text-sm font-semibold leading-6 text-white">Join <span aria-hidden="true">&rarr;</span></a>
+                <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
+</svg></a>
         </div>
     </nav>
-
-    <!-- Mobile menu, show/hide based on menu open state. -->
-    <div class="lg:hidden" role="dialog" aria-modal="true">
-        <!-- Background backdrop, show/hide based on slide-over state. -->
-        <div class="fixed inset-0 z-50"></div>
-        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div class="flex items-center justify-between">
-                <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
-                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-                </a>
-
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                    <span class="sr-only">Close menu</span>
-                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
-            </div>
-
-            <div class="mt-6 flow-root">
-                <div class="-my-6 divide-y divide-gray-500/10">
-                    <div class="space-y-2 py-6">
-                        <a href="#about" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50">About</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50">Features</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50">Marketplace</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50">Company</a>
-                    </div>
-                    <div class="py-6">
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-50">Log in</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </header>
 
-    <div class="relative isolate px-6 pt-14 lg:px-8">
-    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
+    <div class="relative py-24 flex flex-col space-y-32 container">
+    <div style="background: radial-gradient(52.79% 50% at 50% 50%, rgba(183, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 98%)" class="-z-10 absolute inset-0 opacity-75"></div>
 
-    <div class="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
-        <div class="text-center">
-            <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+    <div class="mx-auto max-w-4xl">
+        <div class="text-center flex flex-col items-center justify-center space-y-3">
+            <svg width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.0489 16.9815L1.06451 9.25126M15.0489 16.9815V33M15.0489 16.9815L28.9355 9.25126M1.06451 9.25126V25.0054L15.0489 33M1.06451 9.25126L15.0489 1L28.9355 9.25126M28.9355 9.25126V25.0054L15.0489 33" stroke="white" stroke-width="1.25" stroke-linejoin="round" />
+            </svg>
+
+            <h1 class="text-4xl font-bold tracking-tight text-white sm:text-[80px] sm:leading-[102px] sm:tracking-[-3%]">
                 Perth Laravel PHP Meetup
             </h1>
 
-            <p class="mt-6 text-lg leading-8 text-gray-300">
+            <p class="text-lg/6 text-body max-w-[636px]">
                 Let's come together to learn, inspire, and grow alongside like-minded individuals who are passionate about building robust and scalable web applications with Laravel.
             </p>
+        </div>
 
-            <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="https://www.meetup.com/perth-laravel-php-meetup/" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                    Join <strong>32</strong> like-minded developers
-                </a>
-            </div>
+        <div class="mt-9 flex flex-col gap-4 md:flex-row items-center justify-center md:gap-9">
+            <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-bold border-transparent bg-primary hover:bg-primary/80 focus-visible:outline-primary flex items-center space-x-3" href="https://www.meetup.com/perth-laravel-php-meetup/" target="_blank" href="https://www.meetup.com/perth-laravel-php-meetup/" class="flex items-center space-x-3" target="_blank"><span>Become a Member</span>
+
+                <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"/>
+</svg></a>
+
+            <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-medium border-white hover:bg-white hover:text-black focus-visible:outline-white flex items-center space-x-3" href="#about" href="#about" class="flex items-center space-x-3"><span>Read More</span>
+
+                <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
+</svg></a>
         </div>
     </div>
 
-    <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-        <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    <div class="xl:mx-auto xl:max-w-6xl xl:px-8">
+        <img src="https://glennforrest.github.io/perth-laravel-php/build/assets/hero-DVHnhX6g.jpg" alt="People networking" class="aspect-[9/4] w-full object-cover object-top rounded-xl xl:rounded-3xl" />
     </div>
 </div>
-
-    <div class="xl:mx-auto xl:max-w-7xl xl:px-8 isolate">
-        <img
-            src="https://glennforrest.github.io/perth-laravel-php/build/assets/hero-DEd6aMgZ.jpg"
-            alt="People networking"
-            class="aspect-[9/4] w-full object-cover object-top xl:rounded-3xl"
-        />
-    </div>
-
     <div id="about" class="py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="container px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:text-center">
-            <h2 class="text-base font-semibold leading-7 text-indigo-400">
-                Connect, Learn, Grow
+            <h2 class="text-2xl font-bold leading-7 text-primary">
+                Our Mission
             </h2>
 
-            <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <p class="mt-2 text-3xl font-bold text-white sm:text-6xl tracking-[-3%]">
                 Connect · Learn · Grow
             </p>
 
-            <p class="mt-6 text-lg leading-8 text-gray-300">
+            <p class="mt-6 text-lg/6 text-body max-w-[700px] tracking-normal">
                 Perth Laravel Meetup is a community of Laravel enthusiasts in Perth, Western Australia. This group is all about building connections with fellow Laravel developers, sharing knowledge, and fostering collaboration in the PHP community. Whether you are a seasoned Laravel developer or just getting started, join us for regular meetups where we discuss the latest trends, tools, and techniques in Laravel development.
             </p>
         </div>
 
         <div class="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-none">
             <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                <div class="flex flex-col">
-                    <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
-                        <svg class="text-indigo-400 h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <div class="flex flex-col p-12 gap-6 bg-dark-fill/50 rounded-3xl">
+    <dt class="flex items-center gap-x-3 text-2xl/none font-bold text-white">
+        <svg class="text-primary h-6 w-6 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"/>
   <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd"/>
 </svg>
                         Meetup Schedule
-                    </dt>
+    </dt>
 
-                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
-                        <p class="flex-auto">
-                            Join us every quarter for exciting meetups where we dive into the latest trends, best practices, and real-world applications of Laravel and PHP.
-                        </p>
-                    </dd>
-                </div>
+    <dd class="flex flex-auto flex-col text-lg/6 text-body">
+        <p class="flex-auto">
+            Join us every quarter for exciting meetups where we dive into the latest trends, best practices, and real-world applications of Laravel and PHP.
+        </p>
+    </dd>
+</div>
 
-                <div class="flex flex-col">
-                    <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
-                        <svg class="text-indigo-400 h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <div class="flex flex-col p-12 gap-6 bg-dark-fill/50 rounded-3xl">
+    <dt class="flex items-center gap-x-3 text-2xl/none font-bold text-white">
+        <svg class="text-primary h-6 w-6 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
   <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"/>
 </svg>
                         Community
-                    </dt>
+    </dt>
 
-                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
-                        <p class="flex-auto">
-                            Our community is driven by passion and fueled by collaboration. Whether you're a seasoned developer or just starting your journey, you'll find a supportive environment to grow and learn.
-                        </p>
-                    </dd>
-                </div>
+    <dd class="flex flex-auto flex-col text-lg/6 text-body">
+        <p class="flex-auto">
+            Our community is driven by passion and fueled by collaboration. Whether you're a seasoned developer or just starting your journey, you'll find a supportive environment to grow and learn.
+        </p>
+    </dd>
+</div>
 
-                <div class="flex flex-col">
-                    <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
-                        <svg class="text-indigo-400 h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
-  <path fill-rule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd"/>
+                <div class="flex flex-col p-12 gap-6 bg-dark-fill/50 rounded-3xl">
+    <dt class="flex items-center gap-x-3 text-2xl/none font-bold text-white">
+        <svg class="text-primary h-6 w-6 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z"/>
+  <path d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z"/>
 </svg>
                         Share your Expertise
-                    </dt>
+    </dt>
 
-                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
-                        <p class="flex-auto">
-                            Share your expertise and passion for Laravel and PHP by becoming a speaker at our meetups!
-                        </p>
-                    </dd>
-                </div>
+    <dd class="flex flex-auto flex-col text-lg/6 text-body">
+        <p class="flex-auto">
+            Calling all Laravel and PHP aficionados! Showcase your expertise and ignite inspiration as a featured speaker at our meetups. Join us in shaping the future of web development—become a speaker and leave your mark on the Laravel landscape!
+        </p>
+    </dd>
+</div>
             </dl>
         </div>
     </div>
 </div>
+    <div id="laravel" class="container py-16">
+    <div class="flex flex-col gap-4 md:flex-row md:justify-between md:items-center">
+        <div class="flex flex-col items-start max-w-lg">
+            <h2 class="text-2xl/none font-bold text-primary">
+                The Tech
+            </h2>
 
-    <div class="py-24 sm:py-32">
-    <div class="relative isolate">
-        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
-                <img
-                    class="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-                    src="https://glennforrest.github.io/perth-laravel-php/build/assets/cta-Bc89eTiT.jpg"
-                    alt="Someone presenting in front of people"
-                />
+            <p class="text-3xl font-bold text-white sm:text-6xl tracking-[-3%]">
+                What is Laravel?
+            </p>
 
-                <div class="w-full flex-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Connect with 32 like-minded developers</h2>
+            <p class="text-body mt-6">
+                Laravel, the leading PHP framework, empowers developers with streamlined coding, robust security, and elegant syntax. Experience seamless database migration, efficient routing, and MVC architecture for scalable applications. Join our monthly Laravel Meeting Group to harness its power. Connect with peers, explore cutting-edge features, and elevate your web development game with ease and efficiency.
+            </p>
 
-                    <p class="mt-6 text-lg leading-8 text-gray-300">
-                        Join us as we keep on learning, getting inspired, and growing together with other enthusiasts who are all about mastering the craft of building solid and scalable web apps using Laravel.
-                    </p>
+            <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-medium border-white hover:bg-white hover:text-black focus-visible:outline-white flex items-center space-x-3 mt-8" href="https://laravel.com" target="_blank" href="https://laravel.com" target="_blank" class="flex items-center space-x-3 mt-8"><span>Go to Laravel</span>
 
-                    <div class="mt-10 flex">
-                        <a href="https://www.meetup.com/perth-laravel-php-meetup/" class="text-sm font-semibold leading-6 text-indigo-400">Join our meetup group <span aria-hidden="true">&rarr;</span></a>
-                    </div>
-                </div>
-            </div>
+                <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
+</svg></a>
         </div>
-        <div class="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
-            <div class="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)"></div>
+
+        <div class="py-32 px-44 relative">
+            <div style="background: radial-gradient(52.98% 63.66% at 50% 50%, rgba(205, 0, 26, 0.33) 0%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);" class="absolute inset-0 opacity-[33%]"></div>
+
+            <svg width="240" height="246" viewBox="0 0 240 246" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M239.394 55.5955C239.483 55.9232 239.528 56.261 239.529 56.6003V109.35C239.529 110.027 239.35 110.692 239.011 111.278C238.671 111.864 238.183 112.35 237.596 112.687L193.322 138.177V188.701C193.322 190.076 192.591 191.346 191.399 192.038L98.9808 245.24C98.7692 245.36 98.5385 245.437 98.3077 245.519C98.2211 245.547 98.1394 245.6 98.0481 245.624C97.402 245.795 96.723 245.795 96.0769 245.624C95.9711 245.596 95.875 245.538 95.774 245.499C95.5625 245.422 95.3413 245.355 95.1394 245.24L2.74037 192.038C2.15339 191.701 1.66566 191.215 1.32635 190.629C0.987046 190.043 0.808143 189.378 0.807678 188.701L0.807678 30.4513C0.807678 30.1052 0.855755 29.7686 0.942294 29.4417C0.97114 29.3311 1.03845 29.2302 1.07691 29.1196C1.14902 28.9177 1.21633 28.7109 1.3221 28.5234C1.39422 28.3984 1.49999 28.2975 1.58652 28.1821C1.6971 28.0282 1.79806 27.8696 1.92787 27.735C2.03845 27.6244 2.18268 27.5427 2.30768 27.4465C2.4471 27.3311 2.5721 27.2061 2.73076 27.1148L48.9375 0.513804C49.5225 0.177172 50.1856 0 50.8606 0C51.5355 0 52.1986 0.177172 52.7836 0.513804L98.9856 27.1148H98.9952C99.149 27.2109 99.2788 27.3311 99.4183 27.4417C99.5433 27.5378 99.6827 27.6244 99.7933 27.7302C99.9279 27.8696 100.024 28.0282 100.139 28.1821C100.221 28.2975 100.332 28.3984 100.399 28.5234C100.51 28.7157 100.572 28.9177 100.649 29.1196C100.687 29.2302 100.755 29.3311 100.784 29.4465C100.872 29.7741 100.917 30.1119 100.918 30.4513V129.293L139.418 107.124V56.5955C139.418 56.259 139.466 55.9177 139.553 55.5955C139.587 55.4802 139.649 55.3792 139.687 55.2686C139.764 55.0667 139.832 54.86 139.937 54.6725C140.01 54.5475 140.115 54.4465 140.197 54.3311C140.312 54.1773 140.409 54.0186 140.543 53.884C140.654 53.7734 140.793 53.6917 140.918 53.5955C141.062 53.4802 141.188 53.3552 141.341 53.2638L187.553 26.6628C188.138 26.3257 188.801 26.1483 189.476 26.1483C190.151 26.1483 190.814 26.3257 191.399 26.6628L237.601 53.2638C237.764 53.36 237.889 53.4802 238.034 53.5907C238.154 53.6869 238.293 53.7734 238.404 53.8792C238.538 54.0186 238.635 54.1773 238.75 54.3311C238.837 54.4465 238.942 54.5475 239.01 54.6725C239.12 54.86 239.183 55.0667 239.26 55.2686C239.303 55.3792 239.365 55.4802 239.394 55.5955ZM231.827 107.124V63.259L215.659 72.5667L193.322 85.4273V129.293L231.832 107.124H231.827ZM185.625 186.475V142.581L163.654 155.129L100.913 190.937V235.245L185.625 186.475ZM8.5096 37.11V186.475L93.2115 235.24V190.942L48.9615 165.898L48.9471 165.889L48.9279 165.879C48.7788 165.793 48.6538 165.668 48.5144 165.562C48.3942 165.466 48.2548 165.389 48.149 165.283L48.1394 165.269C48.0144 165.148 47.9279 164.999 47.8221 164.865C47.726 164.735 47.6106 164.624 47.5336 164.49L47.5288 164.475C47.4423 164.331 47.3894 164.158 47.3269 163.995C47.2644 163.85 47.1827 163.716 47.1442 163.562C47.0961 163.379 47.0865 163.182 47.0673 162.995C47.0481 162.85 47.0096 162.706 47.0096 162.562V162.552V59.2782L24.6779 46.4128L8.5096 37.11ZM50.8654 8.29265L12.3702 30.4513L50.8558 52.61L89.3461 30.4465L50.8558 8.29265H50.8654ZM70.8846 146.581L93.2163 133.725V37.11L77.0481 46.4177L54.7115 59.2782V155.894L70.8846 146.581ZM189.476 34.4417L150.986 56.6003L189.476 78.759L227.962 56.5955L189.476 34.4417ZM185.625 85.4273L163.288 72.5667L147.12 63.259V107.124L169.452 119.98L185.625 129.293V85.4273ZM97.0577 184.278L153.514 152.047L181.736 135.942L143.274 113.797L98.9904 139.293L58.6298 162.528L97.0577 184.278Z" fill="#CD001A"/>
+            </svg>
         </div>
     </div>
 </div>
+    <div class="container my-16">
+    <div class="py-20 px-8 bg-dark-fill/50 rounded-3xl">
+        <div class="flex flex-col items-center justify-center mx-auto max-w-[996px]">
+            <div class="flex flex-col items-center justify-center text-center">
+                <h2 class="text-2xl/none font-bold text-primary">
+                    The People
+                </h2>
 
-    <footer>
-    <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-center lg:px-8">
-        <div class="flex justify-center space-x-6 md:order-2">
-            
-            
-            <a href="https://www.meetup.com/perth-laravel-php-meetup/" class="text-white hover:text-gray-200">
-                <span class="sr-only">Meetup</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" version="1.0" class="-mt-1 h-8 w-8" viewBox="0 0 392.000000 392.000000" preserveAspectRatio="xMidYMid meet">
-                    <g transform="translate(0.000000,392.000000) scale(0.100000,-0.100000)" stroke="none">
-                        <path d="M1265 3535 c-28 -27 -32 -61 -10 -92 31 -44 97 -35 125 18 23 42 -21 99 -76 99 -8 0 -26 -11 -39 -25z" />
-                        <path d="M2163 3451 c-49 -23 -73 -63 -73 -122 0 -111 128 -176 214 -108 56 44 72 118 36 176 -39 65 -108 86 -177 54z" />
-                        <path d="M1655 3136 c-213 -49 -382 -178 -477 -362 -41 -79 -42 -80 -92 -92 -209 -50 -356 -239 -356 -458 0 -70 24 -170 54 -223 13 -23 10 -28 -30 -78 -83 -101 -118 -200 -118 -333 0 -142 65 -288 167 -375 51 -44 167 -103 217 -111 l36 -6 16 -85 c34 -179 146 -328 302 -402 165 -77 380 -65 528 30 l48 31 47 -31 c213 -141 498 -59 599 174 26 59 31 65 59 65 71 1 189 30 261 65 144 69 267 221 308 381 21 81 21 234 0 305 -9 30 -27 80 -41 111 l-25 57 36 44 c114 139 112 323 -5 451 -29 31 -73 66 -103 81 l-53 26 -7 82 c-14 176 -62 285 -180 403 -65 65 -98 89 -166 122 -47 22 -109 45 -138 51 -76 16 -212 14 -292 -5 -69 -15 -69 -15 -112 10 -24 13 -79 37 -123 52 -98 33 -264 42 -360 20z m518 -588 c12 -6 43 -29 68 -50 25 -21 51 -38 58 -38 6 0 29 9 51 20 47 24 172 28 223 6 47 -20 93 -72 107 -122 27 -95 7 -165 -138 -499 -78 -177 -102 -257 -102 -334 0 -75 22 -93 134 -114 107 -19 136 -41 136 -99 0 -88 -102 -118 -278 -82 -161 33 -252 128 -260 274 -5 79 -1 89 142 387 112 233 126 282 87 303 -27 14 -64 -2 -88 -37 -11 -15 -91 -167 -177 -338 -97 -191 -170 -323 -190 -344 -39 -39 -105 -52 -157 -31 -37 16 -62 67 -53 108 4 15 47 127 95 250 92 230 103 278 73 320 -19 27 -63 29 -92 5 -13 -11 -76 -158 -161 -373 -77 -195 -152 -371 -165 -391 -37 -54 -103 -83 -175 -76 -130 11 -221 103 -221 224 0 35 120 437 196 653 77 223 107 270 206 319 88 44 145 43 257 -8 128 -58 130 -57 210 9 34 28 71 55 83 60 33 13 106 12 131 -2z" />
-                        <path d="M963 3025 c-33 -14 -63 -59 -63 -95 0 -54 51 -100 111 -100 41 0 66 15 84 50 30 59 13 115 -45 145 -35 18 -46 18 -87 0z" />
-                        <path d="M3215 2691 c-42 -18 -60 -50 -60 -108 0 -49 3 -58 33 -84 26 -23 42 -29 78 -29 39 0 51 5 81 35 33 33 35 39 31 86 -7 66 -38 100 -99 105 -24 2 -53 0 -64 -5z" />
-                        <path d="M3620 2257 c-32 -16 -40 -70 -14 -98 36 -40 104 -12 104 42 0 50 -46 78 -90 56z" />
-                        <path d="M401 2132 c-121 -65 -74 -255 62 -255 62 0 105 26 129 79 54 123 -73 239 -191 176z" />
-                        <path d="M3453 1853 c-30 -6 -63 -49 -63 -83 0 -59 72 -106 122 -79 34 18 47 40 48 80 0 54 -50 93 -107 82z" />
-                        <path d="M857 972 c-36 -40 -9 -102 45 -102 49 0 78 69 42 104 -21 22 -67 20 -87 -2z" />
-                        <path d="M2803 769 c-67 -14 -113 -70 -113 -138 0 -134 161 -196 249 -96 92 105 1 263 -136 234z" />
-                        <path d="M1904 500 c-31 -12 -54 -49 -54 -85 1 -94 137 -116 171 -28 14 37 -6 90 -41 108 -32 17 -45 18 -76 5z" />
-                    </g>
-                </svg>
+                <p class="text-3xl font-bold text-white sm:text-6xl tracking-[-3%]">
+                    Join Our Community
+                </p>
+
+                <p class="text-body mt-6">
+                    Immerse yourself in the vibrant world of Perth Laravel PHP Meetup! Dive into our dynamic community where discussions on Laravel and web app development thrive across Facebook, LinkedIn, and Slack. Stay in the loop with regular updates, insightful posts, and lively conversations. Don't miss out—join us today and fuel your passion for cutting-edge web development!
+                </p>
+            </div>
+
+            <div class="mt-12 flex flex-col gap-4 md:flex-row items-center justify-center md:gap-6">
+                <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-medium border-white hover:bg-white hover:text-black focus-visible:outline-white flex items-center space-x-3" href="https://facebook.com" target="_blank" href="https://facebook.com" target="_blank" class="flex items-center space-x-3"><span>Our Facebook</span>
+
+                    <svg class="fill-current h-4 w-4 flex-none" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 8.04902C16 3.60302 12.418 -0.000976562 7.99999 -0.000976562C3.57999 2.34375e-05 -0.00201416 3.60302 -0.00201416 8.05002C-0.00201416 12.067 2.92399 15.397 6.74799 16.001V10.376H4.71799V8.05002H6.74999V6.27502C6.74999 4.25802 7.94499 3.14402 9.77199 3.14402C10.648 3.14402 11.563 3.30102 11.563 3.30102V5.28102H10.554C9.56099 5.28102 9.25099 5.90202 9.25099 6.53902V8.04902H11.469L11.115 10.375H9.24999V16C13.074 15.396 16 12.066 16 8.04902Z" />
+                    </svg></a>
+
+                <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-medium border-white hover:bg-white hover:text-black focus-visible:outline-white flex items-center space-x-3" href="https://linkedin.com" target="_blank" href="https://linkedin.com" target="_blank" class="flex items-center space-x-3"><span>Our LinkedIn</span>
+
+                    <svg class="fill-current h-4 w-4 flex-none" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.5 1.146C0.5 0.513 1.026 0 1.675 0H15.325C15.974 0 16.5 0.513 16.5 1.146V14.854C16.5 15.487 15.974 16 15.325 16H1.675C1.026 16 0.5 15.487 0.5 14.854V1.146ZM5.443 13.394V6.169H3.042V13.394H5.443ZM4.243 5.182C5.08 5.182 5.601 4.628 5.601 3.934C5.586 3.225 5.081 2.686 4.259 2.686C3.437 2.686 2.9 3.226 2.9 3.934C2.9 4.628 3.421 5.182 4.227 5.182H4.243ZM9.151 13.394V9.359C9.151 9.143 9.167 8.927 9.231 8.773C9.404 8.342 9.799 7.895 10.463 7.895C11.332 7.895 11.679 8.557 11.679 9.529V13.394H14.08V9.25C14.08 7.03 12.896 5.998 11.316 5.998C10.042 5.998 9.471 6.698 9.151 7.191V7.216H9.135L9.151 7.191V6.169H6.751C6.781 6.847 6.751 13.394 6.751 13.394H9.151Z" />
+                    </svg></a>
+
+                <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-bold border-transparent bg-primary hover:bg-primary/80 focus-visible:outline-primary flex items-center space-x-3" href="https://www.meetup.com/perth-laravel-php-meetup/" target="_blank" href="https://www.meetup.com/perth-laravel-php-meetup/" class="flex items-center space-x-3" target="_blank"><span>Become a Member</span>
+
+                    <svg class="h-4 w-4 flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"/>
+</svg></a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="sponsors" class="container py-20">
+    <div class="flex flex-col items-center justify-center text-center gap-8">
+        <div>
+            <h2 class="text-2xl/none font-bold text-primary">
+                Behind the Scenes
+            </h2>
+
+            <p class="text-3xl font-bold text-white sm:text-6xl tracking-[-3%]">
+                Our Sponsors & Partners
+            </p>
+        </div>
+
+        <div class="flex flex-wrap gap-4">
+                            <a href="https://hatchet.com.au" target="_blank" class="py-8 px-16 border border-stroke rounded-3xl group">
+                    <img
+                        class="group-hover:opacity-80 transition duration-150"
+                        src="https://glennforrest.github.io/perth-laravel-php/build/assets/hatchet-logo-BH7qLGE1.svg"
+                        alt="Hatchet"
+                    />
+                </a>
+                    </div>
+
+        <a class="border transition duration-150 rounded-[200px] px-8 py-[14px] text-base/5 text-white focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 font-bold border-transparent bg-primary hover:bg-primary/80 focus-visible:outline-primary flex items-center space-x-3" href="https://google.com" target="_blank" href="https://google.com" class="flex items-center space-x-3" target="_blank"><span>Become a Sponsor</span>
+
+            <svg class="h-5 w-5 flex-none" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_15_600)">
+                    <path d="M12.0862 2.00236L9.99999 0.922363L7.91374 2.00236L5.59124 2.35486L4.53874 4.45486L2.86749 6.10486L3.24999 8.42236L2.86749 10.7399L4.53874 12.3899L5.59124 14.4899L7.91374 14.8424L9.99999 15.9224L12.0862 14.8424L14.4087 14.4899L15.4612 12.3899L17.1325 10.7399L16.75 8.42236L17.1325 6.10486L15.4612 4.45486L14.4087 2.35486L12.0862 2.00236ZM13.5812 3.49361L14.4362 5.19986L15.7937 6.53986L15.4837 8.42236L15.7937 10.3049L14.4362 11.6449L13.5812 13.3511L11.6937 13.6374L9.99999 14.5149L8.30624 13.6374L6.41874 13.3511L5.56374 11.6449L4.20624 10.3049L4.51749 8.42236L4.20499 6.53986L5.56374 5.19986L6.41874 3.49361L8.30624 3.20736L9.99999 2.32986L11.695 3.20736L13.5812 3.49361Z" fill="white" />
+                    <path d="M5 15.6648V20.9223L10 19.6723L15 20.9223V15.6648L12.4775 16.0473L10 17.3298L7.5225 16.0473L5 15.6648Z" fill="white" />
+                </g>
+
+                <defs>
+                    <clipPath id="clip0_15_600">
+                        <rect width="20" height="20" fill="white" transform="translate(0 0.922363)" />
+                    </clipPath>
+                </defs>
+            </svg></a>
+    </div>
+</div>
+
+    <footer class="bg-[#151515] pt-16 md:pt-32 pb-16">
+    <div class="container flex flex-col gap-24 text-lg leading-[22px] text-white">
+        <div class="flex flex-col gap-8 items-center md:flex-row md:items-start md:justify-between">
+            <a href="/" class="-m-1.5 p-1.5 flex flex-col gap-1 transition duration-150 hover:opacity-80">
+                <svg class="w-[160px] h-[91px]" viewBox="0 0 83 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M41.5413 5.15509V27.9122L47.9872 31.6944M41.5413 5.15509L48.1062 1.17747L81.5 20.5177M41.5413 5.15509L41.5767 5.17543M81.5 20.5177V42.9753L74.8828 46.8225M81.5 20.5177L74.8828 24.2737M74.8828 46.8225L68.1117 42.9753V35.7373M74.8828 46.8225V24.2737M61.4175 39.3889V24.1026L68.1117 27.9122V35.7373M61.4175 39.3889L54.9127 35.7373M61.4175 39.3889L68.1117 35.7373M47.9872 31.6944L54.9127 35.7373M47.9872 31.6944L47.9873 31.6737M47.9872 31.6944L54.895 28.0428M54.9127 35.7373V42.9753L48.1416 46.8225M54.9127 35.7373L48.1416 39.3889M54.9127 35.7373L47.9873 31.6737M54.9127 35.7373L54.895 28.0428M74.8828 24.2737L41.5767 5.17543M28.1698 5.15509L34.8189 1.17747L41.5767 5.15509M28.1698 5.15509L34.8189 8.81734M28.1698 5.15509V35.7373M28.1698 5.15509L28.1698 12.7843M41.5767 5.15509L34.8189 8.81734M41.5767 5.15509V5.17543M48.1416 46.8225L28.1698 35.7373M48.1416 46.8225V39.3889M28.1698 35.7373L28.1698 12.7843M28.1698 35.7373L21.4534 39.3889M34.8189 8.81734V31.6944M34.8189 31.6944L48.1416 39.3889M34.8189 31.6944L41.5767 27.9122M41.5767 27.9122V5.17543M41.5767 27.9122L47.9873 31.6737M1.5 5.15509L8.08594 1.17747L28.1698 12.7843M1.5 5.15509V42.9753L8.08594 46.8225M1.5 5.15509L21.4534 16.527M28.1698 12.7843L21.4534 16.527M21.4534 39.3889L14.7371 35.5229M21.4534 39.3889V16.527M14.7371 35.5229L8.08594 31.6944V46.8225M14.7371 35.5229V42.9753L8.08594 46.8225M47.9873 31.6737L48.1062 16.527L54.8773 20.3483L54.895 28.0428M8.08594 24.2737V16.527L14.7371 20.5177V27.9122L8.08594 24.2737Z" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+</svg>
+
+                <span>Perth Laravel Meetups</span>
             </a>
+
+            <div class="flex gap-6">
+                <a href="#about" class="transition duration-150 hover:text-white/80">
+                    About
+                </a>
+
+                <a href="#laravel" class="transition duration-150 hover:text-white/80">
+                    Laravel
+                </a>
+
+                <a href="#sponsors" class="transition duration-150 hover:text-white/80">
+                    Sponsors
+                </a>
+
+                <a href="#code-of-conduct" class="transition duration-150 hover:text-white/80">
+                    Code of Conduct
+                </a>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-2 items-center md:flex-row md:items-end md:justify-between">
+            <p>© 2024 Perth Laravel Meetups</p>
+
+            <div>
+                <a href="#privacy-policy" class="transition duration-150 hover:text-white/80">
+                    Privacy Policy
+                </a>
+
+                <span>|</span>
+
+                <a href="#terms-and-conditions" class="transition duration-150 hover:text-white/80">
+                    Terms & Conditions
+                </a>
+            </div>
         </div>
     </div>
 </footer>

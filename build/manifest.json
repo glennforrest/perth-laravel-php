@@ -1,15 +1,15 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-C5vvsITg.css",
+    "file": "assets/app-C5HZx_5B.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
-  "resources/images/cta.jpg": {
-    "file": "assets/cta-Bc89eTiT.jpg",
-    "src": "resources/images/cta.jpg"
+  "resources/images/hatchet-logo.svg": {
+    "file": "assets/hatchet-logo-BH7qLGE1.svg",
+    "src": "resources/images/hatchet-logo.svg"
   },
   "resources/images/hero.jpg": {
-    "file": "assets/hero-DEd6aMgZ.jpg",
+    "file": "assets/hero-DVHnhX6g.jpg",
     "src": "resources/images/hero.jpg"
   },
   "resources/js/app.js": {
