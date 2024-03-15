@@ -20,7 +20,7 @@
                     Sponsors
                 </a>
 
-                <a href="#code-of-conduct" class="transition duration-150 hover:text-white/80">
+                <a href="/code-of-conduct" class="transition duration-150 hover:text-white/80">
                     Code of Conduct
                 </a>
             </div>

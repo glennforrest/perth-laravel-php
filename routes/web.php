@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('page');
-});
+Route::get('/', fn () => view('page'));
+Route::get('/code-of-conduct', fn() => view('code-of-conduct'));
