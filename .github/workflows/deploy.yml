@@ -63,12 +63,6 @@ jobs:
       - name: Clear Config
         run: php artisan config:clear
 
-      - name: Fetch Fonts
-        run: php artisan google-fonts:fetch
-
-      - name: Link Storage
-        run: php artisan storage:link
-
       - name: Generate static site
         run: php artisan export
 
