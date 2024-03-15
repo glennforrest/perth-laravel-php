@@ -14,7 +14,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="antialiased bg-black text-white font-sans font-medium">
+<body class="antialiased bg-black text-white font-sans font-semibold text-lg/6">
     <x-banner />
 
     <x-nav />

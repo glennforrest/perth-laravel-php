@@ -33,12 +33,6 @@
                 <a href="#privacy-policy" class="transition duration-150 hover:text-white/80">
                     Privacy Policy
                 </a>
-
-                <span>|</span>
-
-                <a href="#terms-and-conditions" class="transition duration-150 hover:text-white/80">
-                    Terms & Conditions
-                </a>
             </div>
         </div>
     </div>
