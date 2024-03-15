@@ -66,6 +66,9 @@ jobs:
       - name: Generate static site
         run: php artisan export
 
+      - name: Define CNAME
+        rune: echo 'laravelperth.au' > ./dist/CNAME
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
