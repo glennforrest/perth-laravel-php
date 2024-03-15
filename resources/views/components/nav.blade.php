@@ -7,15 +7,15 @@
         </div>
 
         <div class="hidden md:flex md:gap-x-12">
-            <a href="#about" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
+            <a href="/#about" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
                 About
             </a>
 
-            <a href="#laravel" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
+            <a href="/#laravel" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
                 Laravel
             </a>
 
-            <a href="#sponsors" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
+            <a href="/#sponsors" class="text-lg leading-[22px] text-white transition duration-150 hover:opacity-80">
                 Sponsors
             </a>
         </div>

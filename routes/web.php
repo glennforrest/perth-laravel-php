@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', fn () => view('page'));
-Route::get('/code-of-conduct', fn() => view('code-of-conduct'));
+Route::get('/', fn () => view('home'))->name('home');
+Route::get('/code-of-conduct', fn () => view('code-of-conduct'))->name('code-of-conduct');
+Route::get('/privacy-policy', fn () => view('privacy-policy'))->name('privacy-policy');
