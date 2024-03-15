@@ -6,7 +6,7 @@ return [
      * If true, the exporter will crawl through your site's pages to determine
      * the paths that need to be exported.
      */
-    'crawl' => true,
+    'crawl' => false,
 
     /*
      * Add additional paths to be added to the export here. If you're using the
@@ -15,7 +15,9 @@ return [
      * For example: "about", "posts/featured"
      */
     'paths' => [
-
+        '/',
+        '/code-of-conduct',
+        '/privacy-policy',
     ],
 
     /*
