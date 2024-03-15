@@ -67,7 +67,7 @@ jobs:
         run: php artisan export
 
       - name: Define CNAME
-        rune: echo 'laravelperth.au' > ./dist/CNAME
+        run: echo 'laravelperth.au' > ./dist/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

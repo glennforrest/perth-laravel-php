@@ -19,6 +19,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#000000">
+    <meta name="description" content="Let's come together to learn, inspire, and grow alongside like-minded individuals who are passionate about building robust and scalable web applications with Laravel.">
 
     @vite('resources/css/app.css')
 </head>
