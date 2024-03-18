@@ -1,4 +1,4 @@
-<div id="about" class="py-24 sm:py-32">
+<div id="about" class="py-8 sm:py-32">
     <div class="container px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:text-center">
             <h2 class="text-2xl font-bold leading-7 text-primary">
@@ -15,7 +15,7 @@
         </div>
 
         <div class="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-none">
-            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            <dl class="grid max-w-xl grid-cols-1 gap-8 md:gap-y-16 lg:max-w-none lg:grid-cols-3">
                 <x-card>
                     <x-slot:heading>
                         <x-heroicon-s-calendar-days class="text-primary h-6 w-6 flex-none" />

@@ -1,4 +1,4 @@
-<div id="sponsors" class="container py-20">
+<div id="sponsors" class="container py-8 md:py-20">
     <div class="flex flex-col items-center justify-center text-center gap-8">
         <div>
             <h2 class="text-2xl/none font-bold text-primary">

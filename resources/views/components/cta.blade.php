@@ -1,5 +1,5 @@
-<div class="container my-16">
-    <div class="py-20 px-8 bg-dark-fill/50 rounded-3xl">
+<div class="container my-8 md:my-16">
+    <div class="py-12 md:py-20 px-8 bg-dark-fill/50 rounded-3xl">
         <div class="flex flex-col items-center justify-center mx-auto max-w-[996px]">
             <div class="flex flex-col items-center justify-center text-center">
                 <h2 class="text-2xl/none font-bold text-primary">

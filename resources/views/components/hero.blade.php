@@ -4,7 +4,7 @@
     'after' => null,
 ])
 
-<div class="relative py-24 flex flex-col space-y-32 container">
+<div class="relative py-16 space-y-16 md:py-24 flex flex-col md:space-y-32 container">
     <div style="background: radial-gradient(52.79% 50% at 50% 50%, rgba(183, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 98%)" class="-z-10 absolute inset-0 opacity-75"></div>
 
     <div class="mx-auto max-w-4xl !mt-0">

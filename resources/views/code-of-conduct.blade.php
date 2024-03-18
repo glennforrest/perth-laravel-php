@@ -1,7 +1,7 @@
 <x-layout>
     <x-hero title="Code of Conduct" />
 
-    <div class="container max-w-4xl py-24">
+    <div class="container max-w-4xl py-8 md:py-24">
         <div class="prose-lg prose-p:text-body prose-a:underline">
             <section>
                 <p>We are dedicated to a harassment-free meetup experience for everyone.</p>
