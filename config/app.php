@@ -185,6 +185,7 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    'github_url' => 'https://github.com/laravelperth/perth-laravel-meetups',
     'meetup_url' => 'https://www.meetup.com/perth-laravel-php-meetup/',
     'facebook_url' => 'https://facebook.com',
     'linkedin_url' => 'https://linkedin.com',
