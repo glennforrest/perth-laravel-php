@@ -24,7 +24,7 @@
 
                 <p>You can make a personal report by:</p>
 
-                <p>Calling or texting Australian mobile number {{ config('app.organiser.mobile') }}. This phone will be staffed 24/7 throughout the meetup and its associated events.</p>
+                <p>Emailing the Organiser Email on <a href="mailto:{{ config('app.organiser.email') }}">{{ config('app.organiser.email') }}</a>.</p>
 
                 <p>Via social media, Laravel Perth (@laravelperth) will have open DM’s via Mastodon / Bluesky during the meetup.</p>
                 <p>You can also ask a staff member, identified by staff shirts, to help you get in contact with the safety & organising team.</p>
@@ -65,18 +65,8 @@
                         </tr>
 
                         <tr>
-                            <td>ORGANISER PHONE</td>
-                            <td><a href="tel:{{ config('app.organiser.mobile') }}">{{ config('app.organiser.mobile') }}</a></td>
-                        </tr>
-
-                        <tr>
                             <td>LOCAL LAW ENFORCEMENT</td>
                             <td><a href="tel:000">000</a></td>
-                        </tr>
-
-                        <tr>
-                            <td>13CABS</td>
-                            <td><a href="tel:132227">13 22 27</a></td>
                         </tr>
                     </tbody>
                 </table>
