@@ -202,7 +202,6 @@ return [
     'organiser' => [
         'name' => 'Daniel Gouvignon',
         'email' => 'organiser@laravelperth.au',
-        'mobile' => '+61 400 000 000',
     ],
 
     'anonymous_report_form_link' => 'https://google.com',
