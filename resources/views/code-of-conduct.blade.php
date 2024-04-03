@@ -28,8 +28,6 @@
 
                 <p>You can also ask a staff member, identified by staff shirts, to help you get in contact with the safety & organising team.</p>
 
-                <p>You can also make an anonymous report using this form <a href="{{ config('app.anonymous_report_form_link') }}" target="_blank">here</a>. The online form is checked periodically throughout our meetup events.</p>
-
                 <p>We can't follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.</p>
             </section>
 

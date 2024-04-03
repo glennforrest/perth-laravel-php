@@ -190,7 +190,6 @@ return [
     'facebook_url' => null,
     'linkedin_url' => null,
     'slack_url' => 'https://phpaustralia.slack.com',
-    'become_sponsor_url' => 'https://google.com',
 
     'sponsors' => [
         [
@@ -198,12 +197,15 @@ return [
             'url' => 'https://hatchet.com.au',
             'logo_path' => 'resources/images/hatchet-logo.svg',
         ],
+        [
+            'name' => 'Spacecubed',
+            'url' => 'https://spacecubed.com/',
+            'logo_path' => 'resources/images/spacecubed-logo.svg',
+        ],
     ],
 
     'organiser' => [
         'name' => 'Daniel Gouvignon',
         'email' => 'organiser@laravelperth.au',
     ],
-
-    'anonymous_report_form_link' => 'https://google.com',
 ];

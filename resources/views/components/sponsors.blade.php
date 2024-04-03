@@ -10,9 +10,9 @@
             </p>
         </div>
 
-        <div class="flex flex-wrap gap-4">
+        <div class="flex items-center flex-wrap gap-4">
             @foreach (config('app.sponsors') as $sponsor)
-                <a href="{{ $sponsor['url'] }}" target="_blank" class="py-8 px-16 border border-stroke rounded-3xl group">
+                <a href="{{ $sponsor['url'] }}" target="_blank" class="py-8 px-16 border border-stroke rounded-3xl group max-h-[100px] flex items-center">
                     <img
                         class="group-hover:opacity-80 transition duration-150"
                         src="{{ Vite::asset($sponsor['logo_path']) }}"
@@ -22,7 +22,7 @@
             @endforeach
         </div>
 
-        <x-button href="{{ config('app.become_sponsor_url') }}" class="flex items-center space-x-3" target="_blank">
+        <x-button href="mailto:{{ config('app.organiser.email') }}?Subject=Become a Sponsor" class="flex items-center space-x-3" target="_blank">
             <span>Become a Sponsor</span>
 
             <svg class="h-5 w-5 flex-none" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
