@@ -10,7 +10,7 @@
             </p>
         </div>
 
-        <div class="flex items-center flex-wrap gap-4">
+        <div class="flex items-center justify-center flex-wrap gap-4">
             @foreach (config('app.sponsors') as $sponsor)
                 <a href="{{ $sponsor['url'] }}" target="_blank" class="py-8 px-16 border border-stroke rounded-3xl group max-h-[100px] flex items-center">
                     <img
