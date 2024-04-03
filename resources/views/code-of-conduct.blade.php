@@ -26,7 +26,6 @@
 
                 <p>Emailing the Organiser Email on <a href="mailto:{{ config('app.organiser.email') }}">{{ config('app.organiser.email') }}</a>.</p>
 
-                <p>Via social media, Laravel Perth (@laravelperth) will have open DM’s via Mastodon / Bluesky during the meetup.</p>
                 <p>You can also ask a staff member, identified by staff shirts, to help you get in contact with the safety & organising team.</p>
 
                 <p>You can also make an anonymous report using this form <a href="{{ config('app.anonymous_report_form_link') }}" target="_blank">here</a>. The online form is checked periodically throughout our meetup events.</p>
