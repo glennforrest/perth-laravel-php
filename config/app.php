@@ -187,8 +187,9 @@ return [
 
     'github_url' => 'https://github.com/laravelperth/perth-laravel-meetups',
     'meetup_url' => 'https://www.meetup.com/perth-laravel-php-meetup/',
-    'facebook_url' => 'https://facebook.com',
-    'linkedin_url' => 'https://linkedin.com',
+    'facebook_url' => null,
+    'linkedin_url' => null,
+    'slack_url' => 'https://phpaustralia.slack.com',
     'become_sponsor_url' => 'https://google.com',
 
     'sponsors' => [
