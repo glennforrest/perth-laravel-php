@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-BC9NJWaF.css",
+    "file": "assets/app-Blpg9eGl.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -11,6 +11,10 @@
   "resources/images/hero.jpg": {
     "file": "assets/hero-DVHnhX6g.jpg",
     "src": "resources/images/hero.jpg"
+  },
+  "resources/images/spacecubed-logo.svg": {
+    "file": "assets/spacecubed-logo-NmSZnxvK.svg",
+    "src": "resources/images/spacecubed-logo.svg"
   },
   "resources/js/app.js": {
     "file": "assets/app-CifqVuM1.js",
