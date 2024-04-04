@@ -38,7 +38,7 @@
             <section>
                 <h2>Contact Us</h2>
                 <p>If you have any questions or concerns about this Privacy Policy, please contact us.</p>
-                <p>Last updated: {{ now()->format('d/m/Y') }}</p>
+                <p>Website last updated: {{ now()->format('d/m/Y') }}</p>
             </section>
         </div>
     </div>
