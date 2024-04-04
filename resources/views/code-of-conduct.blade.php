@@ -34,9 +34,9 @@
             <section>
                 <h2>WHAT HAPPENS WHEN I CONTACT THE TEAM?</h2>
 
-                <p>When taking a personal report, the organisers and volunteers will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is heard properly. Once safe, we’ll ask you to tell us about what happened. We understand that this can be upsetting and you can bring someone to support you.</p>
+                <p>When taking a personal report, the organisers and volunteers will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is heard properly. Once safe, we'll ask you to tell us about what happened. We understand that this can be upsetting and you can bring someone to support you.</p>
 
-                <p>The volunteers and organisers are committed to handling each report seriously, respectfully and confidentially. You won’t be asked to confront anyone and we won’t tell anyone who you are.</p>
+                <p>The volunteers and organisers are committed to handling each report seriously, respectfully and confidentially. You won't be asked to confront anyone and we won't tell anyone who you are.</p>
 
                 <p>Our meetups are dedicated to providing a harassment-free meetup experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof).</p>
 
