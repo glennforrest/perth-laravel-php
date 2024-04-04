@@ -10,7 +10,7 @@
             </p>
 
             <p class="text-body text-lg/6 mt-6">
-                Laravel, the leading PHP framework, empowers developers with streamlined coding, robust security, and elegant syntax. Experience seamless database migration, efficient routing, and MVC architecture for scalable applications. Join our monthly Laravel Meeting Group to harness its power. Connect with peers, explore cutting-edge features, and elevate your web development game with ease and efficiency.
+                Laravel, the leading PHP framework, empowers developers with streamlined coding, robust security, and elegant syntax. Experience seamless database migration, efficient routing, and MVC architecture for scalable applications. Join our quarterly Laravel Meeting Group to harness its power. Connect with peers, explore cutting-edge features, and elevate your web development game with ease and efficiency.
             </p>
 
             <x-button theme="secondary" href="https://laravel.com" target="_blank" class="flex items-center space-x-3 mt-8">
