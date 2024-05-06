@@ -25,7 +25,7 @@
 </head>
 
 <body class="antialiased bg-black text-white font-sans font-semibold text-lg/6">
-    <x-banner />
+<!--     <x-banner /> -->
 
     <x-nav />
 
